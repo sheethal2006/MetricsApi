@@ -5,6 +5,7 @@
 * PostgreSQL database instance (local or containerized)
 
 ######Implementation Steps######
+
 1.Created an ASP.NET Core Minimal API project and set up PostgreSQL.
 
 2.Implemented POST endpoint to ingest and store metric readings.
@@ -13,7 +14,7 @@
 Retrieve aggregated metric summaries.
 Retrieve triggered alerts.
 
-4.Used clean separation of layers (Minimal API + Services + EF Core).
+4.Used clean separation of layers (Minimal API + Services + DTOs).
 
 5.Implemented basic validation and graceful handling for “no data” scenarios.
 
